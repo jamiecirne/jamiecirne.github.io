@@ -1,5 +1,9 @@
 body {background-color: gray;}
-#welcome{font-color: blue;}
-#welcome{font-size: 50px;}
-#welcome{font-family: courier;}
+.welcome{
+	font-color: blue;
+	font-size: 50px;
+	font-family: courier;
+	border: 50px;
+	background-color: #80F5AF;}
+
 
