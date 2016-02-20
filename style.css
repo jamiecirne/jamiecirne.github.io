@@ -1,2 +1,4 @@
-#bluetext{color: blue;}
-#bluetext{font-size: 50;}
+body {background-color: gray;}
+#welcome{color: blue;}
+#welcome{font-size: 50px;}
+
