@@ -1,19 +1,4 @@
-body {background-color: #AEFFFD;}
-.welcome{
-	text-align: center;
-	font-color: blue;
-	font-size: 80px;
-	font-family: courier;
-	border: 80px;
-	background-color: #80F5AF;
-}
-
-.leena{
-	text-align: center;
-	font-color: #AEFFFD;
-	font-size: 35px;
-	font-family: courier;
-	border: 100px
-	background-color: #D6A6FC;
+h1 {
+	color: green;
 }
 
