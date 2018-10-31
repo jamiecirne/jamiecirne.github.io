@@ -30,7 +30,17 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
 }
+
+	#title {
+		width: 50%;
+		height: 100%;
+		margin: 20px;
+		box-sizing: border-box;
+		font-size: 40px;
+
+	}
 
 #leftbox {
 	width: 50%;
