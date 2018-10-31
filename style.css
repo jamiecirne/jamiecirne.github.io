@@ -1,6 +1,52 @@
+title {
+	margin: 20px;
+	width: 90%;
+	float: left;
+}
+
+h3 {
+	margin: 20px;
+}
+
 h1 {
-	background-color: #666666;
-	color: pink;
+	color: black;
+	margin: 20px;
+	font-size: 80px;
+}
+
+#images {
+float: left;
+margin: 10px;
+width: 40%;
+}
+
+
+#info {
+	margin: 20px;
+	width: 40%;
+	float: right;
+}
+
+#layoutbox {
+	float: right;
+	width: 40%;
+	margin: 10px;	
+}
+
+
+}
+
+a {
+	color: black;
+}
+
+h4 {
+	font-size: 40px;
+}
+
+#mainbox1 {
+	font-size: 30px;
+	margin: 20px;
 }
 /* Add a black background color to the top navigation */
 .topnav {
