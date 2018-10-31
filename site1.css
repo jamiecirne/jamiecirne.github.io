@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1600px
+} center,  ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section,
+
+/* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section { display: block; } 
+
+	body {
+		background-color: lightgray;
+	}
+
+	#right {
+		float: right;
+		width: 50%;
+	}
+
+	#alltext {
+		font-family: helvetica;
+	}
+
+	#container {
+		/*padding pushes items inside the object*/
+		/*margin pushes items outside the object*/
+		width: 400px;
+		height: 400px;
+		float: left; /*see below for description of float*/
+		padding-top: 60px;
+		padding-left: 40px;
+		padding-right: 0px; 
+		margin-right: 0px; 
+		margin-top: 0px;
+		margin-bottom: 10px;
+		background-color: #eca510;
+		box-sizing: border-box;
+		position: right;
+		}
+
+	#box1 {
+		width: 320px;
+		height: 320px;
+		padding-top: 60px;
+		padding-right: 0px;
+		padding-left: 45px;
+		background-color: #d0185c;
+		box-sizing: border-box;
+
+	}
+
+	#box2 {
+		width: 230px;
+		height: 230px;
+		padding-top: 50px;
+		padding-left:35px;
+		background-color: #b90056;
+		box-sizing: border-box;
+	}
+
+	#box3 {
+		width: 160px;
+		height: 160px;
+		background-color: #ed7d17;
+	}
+
+	#title {
+		width: 50%;
+		height: 100%;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+		font-size: 40px;
+
+	}
+
+	#text1 {
+		width: 40%;
+		height: 100%;
+		margin-bottom: 70px;
+		box-sizing: border-box;
+
+	}
+
+	#caption {
+		width: 30%;
+		height: 100%;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+		font-size: 12px;
+
+	}
+
+	#infobox {
+		width: 90%;
+		height:100%;
+		float: left;
+		margin-left:0px;
+		box-sizing: border-box;
+		position: right;
+		font-family: helvetica;
+		/*float: right;
+		position: relative;*/
+	}
+
+	#pic1 {
+		width:100%;
+		height: auto;
+	}
+
+	/*c10056*/
+
+
+
+
+
+
+
+
+
+
