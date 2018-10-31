@@ -7,9 +7,40 @@ html, body, div, h1, h2, h3, h4, h5, h6, p,img {
 /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
 header, hgroup, menu, nav, section { display: block; } 
 
-	body {
-		background-color: lightgray;
-	}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #222148;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #52693f;
+    color: white;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+	background-color: lightgray;
+}
 
 	#right {
 		float: right;
@@ -66,7 +97,7 @@ header, hgroup, menu, nav, section { display: block; }
 	#title {
 		width: 50%;
 		height: 100%;
-		margin-bottom: 20px;
+		margin: 20px;
 		box-sizing: border-box;
 		font-size: 40px;
 
@@ -75,8 +106,8 @@ header, hgroup, menu, nav, section { display: block; }
 	#text1 {
 		width: 40%;
 		height: 100%;
-		margin-bottom: 70px;
 		box-sizing: border-box;
+		padding: 20px;
 
 	}
 
@@ -86,6 +117,7 @@ header, hgroup, menu, nav, section { display: block; }
 		margin-bottom: 20px;
 		box-sizing: border-box;
 		font-size: 12px;
+		padding: 20px;
 
 	}
 
@@ -104,6 +136,7 @@ header, hgroup, menu, nav, section { display: block; }
 	#pic1 {
 		width:100%;
 		height: auto;
+		padding: 20px;
 	}
 
 	/*c10056*/
