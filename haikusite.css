@@ -1,0 +1,72 @@
+body {
+	
+}
+
+p {
+	font-family: georgia;
+	cursor: default;
+}
+
+#box1 {
+	width: 75%;
+	margin: 20px auto 20px auto;
+	padding: 100px;
+	background-color: lightblue;
+}
+
+#box1:hover {
+		background-image: url("raindrops.gif");
+}
+
+
+#box2 {
+	width: 75%;
+	margin: 20px auto 0px auto;
+	padding: 100px;
+	background-color: #e6b800;
+	text-align: right;
+}
+
+#box2:hover {
+	background-image: url("shimmer.gif");
+}
+
+#box3 {
+	width: 75%;
+	margin: 20px auto 0px auto;
+	padding: 100px;
+	background-color: lightpink;
+	text-align: left;
+}
+
+#box3:hover {
+	background-image: url("lips.gif");
+	background-size: 110px auto;
+}
+
+#box4 {
+	width: 75%;
+	margin: 20px auto 0px auto;
+	padding: 100px;
+	background-color: #ffeecc;
+	text-align: right;
+}
+
+#box4:hover {
+	background-image: url("crying.gif");
+	background-size: 100px;
+}
+
+#drops {
+	visibility: hidden;
+}
+
+#highlight{
+	text-decoration: underline;
+
+}
+
+#highlight:hover {
+	color: red;
+
+}
