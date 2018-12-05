@@ -1,0 +1,102 @@
+#div1 #flag {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	visibility: hidden;
+}
+
+#div1 #stonewall {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: visible;
+}
+
+#div1 {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+	text-align: center;
+	width:800px;
+	height: 400px;
+}
+
+#div1:hover #flag{
+	visibility: visible;
+}
+
+#div1:hover #stonewall{
+	visibility:hidden;
+}
+
+#div1:hover #google{
+	color: white;
+}
+
+#google {
+	font-size: 90px;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#life {
+	position: absolute;
+	top: 4%;
+	left: 23%;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	color: white;
+}
+
+#healing {
+	position: absolute;
+	top: 14%;
+	left: 23%;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	color: white;
+}
+
+#sunlight {
+	position: absolute;
+	top: 23%;
+	left: 23%;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	color: white;
+}
+
+#nature {
+	position: absolute;
+	top: 33%;
+	left: 23%;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	color: white;
+}
+
+#peace {
+	position: absolute;
+	top: 43%;
+	left: 23%;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	color: white;
+}
+
+#spirit {
+	position: absolute;
+	top: 52%;
+	left: 23%;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	color: white;
+}
+
+
+
+
