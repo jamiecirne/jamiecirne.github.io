@@ -49,53 +49,55 @@
     transform: translate(-50%, -50%);
 }
 
-#life {
-	position: absolute;
-	top: 4%;
-	left: 23%;
+#textbox1 {
 	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-	color: white;
+	width: 100%;
+	height: auto;
+	margin: 20px 50px;
+	float: left;
 }
 
-#healing {
-	position: absolute;
-	top: 14%;
-	left: 23%;
+#textbox2 {
 	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-	color: white;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	float: left;
 }
 
-#sunlight {
-	position: absolute;
-	top: 23%;
-	left: 23%;
-	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-	color: white;
+#bar {
+	float: left;
+	margin-right: 50px;
+	position: relative;
+	width: 100%;
 }
 
-#nature {
-	position: absolute;
-	top: 33%;
-	left: 23%;
+#back {
 	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-	color: white;
+	color: lightgrey;
+	font-size: 20px;
+	margin-left: 50px;
+
 }
 
-#peace {
-	position: absolute;
-	top: 43%;
-	left: 23%;
-	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-	color: white;
+#leftbox {
+	width: 45%;
+	float: left;
 }
 
-#spirit {
-	position: absolute;
-	top: 52%;
-	left: 23%;
-	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
-	color: white;
+#rightbox {
+	width: 45%;
+	float: right;
+	padding-right: 50px;
 }
+
+#protest {
+	width: 90%;
+	margin-left: 50px;
+}
+
+
+
 
 
 
